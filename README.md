@@ -9,6 +9,7 @@ A collection of SQL problems and solutions from [InterviewMaster.ai](https://www
 | [01](Case01_Amazon_Seller_Sales.md) | Amazon Seller Sales Analysis | 3 | Hard | Window Functions, CTEs, Date Operations, Cumulative Calculations |
 | [02](Case02_Netflix_Marketing.md) | Netflix Marketing Efficiency | 3 | Medium | Aggregations, JOINs, Date Filtering, Division Safety |
 | [03](Case03_Amazon_Prime_Engagement.md) | Amazon Prime Member Engagement | 3 | Medium | CTEs, Aggregations, CASE Statements, Bucketing |
+| [04](Case04_Netflix_Mobile_Experience.md) | Netflix Mobile Experience | 3 | Medium | Percentiles, Window Functions, Timestamp Operations, Device Filtering |
 
 ## 🗂️ Repository Structure
 
@@ -18,6 +19,7 @@ sql-interview-practice/
 ├── Case01_Amazon_Seller_Sales.md
 ├── Case02_Netflix_Marketing.md
 ├── Case03_Amazon_Prime_Engagement.md
+├── Case04_Netflix_Mobile_Experience.md
 └── ... (more cases)
 ```
 
@@ -34,10 +36,11 @@ Each case file contains:
 
 - **Window Functions**: ROW_NUMBER, RANK, SUM OVER, cumulative calculations
 - **CTEs**: Common Table Expressions for complex queries
-- **Date/Time Operations**: DATE_TRUNC, EXTRACT, BETWEEN, date ranges
-- **Aggregations**: SUM, COUNT, AVG, GROUP BY
+- **Date/Time Operations**: DATE_TRUNC, EXTRACT, BETWEEN, date ranges, timestamp handling
+- **Aggregations**: SUM, COUNT, AVG, MAX, GROUP BY
+- **Statistical Functions**: PERCENTILE_CONT, PERCENTILE_DISC, median, percentiles
 - **JOINs**: INNER, LEFT, CROSS joins
-- **Conditional Logic**: CASE statements, bucketing
+- **Conditional Logic**: CASE statements, bucketing, IN clause
 - **Advanced PostgreSQL**: DISTINCT ON, generate_series
 - **Data Safety**: NULLIF for division, COALESCE for NULL handling
 
@@ -46,6 +49,7 @@ Each case file contains:
 - [x] Case 01: Amazon Seller Sales Analysis (Hard)
 - [x] Case 02: Netflix Marketing Efficiency (Medium)
 - [x] Case 03: Amazon Prime Member Engagement (Medium)
+- [x] Case 04: Netflix Mobile Experience (Medium)
 - [ ] More cases coming soon...
 
 ## 🔧 Database
