@@ -6,8 +6,9 @@ A collection of SQL problems and solutions from [InterviewMaster.ai](https://www
 
 | Case | Topic | Questions | Difficulty | Key Concepts |
 |------|-------|-----------|------------|--------------|
-| [01](Case01_Amazon_Seller_Sales.md) | Amazon Seller Sales Analysis | 3 | Medium | Window Functions, CTEs, Date Operations |
-| [02](Case02_Netflix_Marketing.md) | Netflix Marketing Efficiency | 3 | Medium | Aggregations, JOINs, Date Filtering |
+| [01](Case01_Amazon_Seller_Sales.md) | Amazon Seller Sales Analysis | 3 | Hard | Window Functions, CTEs, Date Operations, Cumulative Calculations |
+| [02](Case02_Netflix_Marketing.md) | Netflix Marketing Efficiency | 3 | Medium | Aggregations, JOINs, Date Filtering, Division Safety |
+| [03](Case03_Amazon_Prime_Engagement.md) | Amazon Prime Member Engagement | 3 | Medium | CTEs, Aggregations, CASE Statements, Bucketing |
 
 ## 🗂️ Repository Structure
 
@@ -16,6 +17,7 @@ sql-interview-practice/
 ├── README.md
 ├── Case01_Amazon_Seller_Sales.md
 ├── Case02_Netflix_Marketing.md
+├── Case03_Amazon_Prime_Engagement.md
 └── ... (more cases)
 ```
 
@@ -30,17 +32,20 @@ Each case file contains:
 
 ## 🎯 SQL Concepts Covered
 
-- Window Functions (ROW_NUMBER, RANK, SUM OVER)
-- Common Table Expressions (CTEs)
-- Date/Time Operations (DATE_TRUNC, EXTRACT, date filtering)
-- Aggregations (SUM, COUNT, AVG)
-- JOINs (INNER, LEFT, CROSS)
-- Advanced PostgreSQL features (DISTINCT ON, generate_series)
+- **Window Functions**: ROW_NUMBER, RANK, SUM OVER, cumulative calculations
+- **CTEs**: Common Table Expressions for complex queries
+- **Date/Time Operations**: DATE_TRUNC, EXTRACT, BETWEEN, date ranges
+- **Aggregations**: SUM, COUNT, AVG, GROUP BY
+- **JOINs**: INNER, LEFT, CROSS joins
+- **Conditional Logic**: CASE statements, bucketing
+- **Advanced PostgreSQL**: DISTINCT ON, generate_series
+- **Data Safety**: NULLIF for division, COALESCE for NULL handling
 
 ## 📊 Progress
 
-- [x] Case 01: Amazon Seller Sales Analysis
-- [x] Case 02: Netflix Marketing Efficiency
+- [x] Case 01: Amazon Seller Sales Analysis (Hard)
+- [x] Case 02: Netflix Marketing Efficiency (Medium)
+- [x] Case 03: Amazon Prime Member Engagement (Medium)
 - [ ] More cases coming soon...
 
 ## 🔧 Database
