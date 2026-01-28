@@ -11,6 +11,7 @@ A collection of SQL problems and solutions from [InterviewMaster.ai](https://www
 | [03](Case03_Amazon_Prime_Engagement.md) | Amazon Prime Member Engagement | 3 | Medium | CTEs, Aggregations, CASE Statements, Bucketing |
 | [04](Case04_Netflix_Mobile_Experience.md) | Netflix Mobile Experience | 3 | Hard | Percentiles, Window Functions, Timestamp Operations, Device Filtering |
 | [05](Case05_Walmart_Vision_Center.md) | Walmart Vision Center Eyewear | 3 | Hard | DENSE_RANK, ROW_NUMBER, Multi-Column Ranking, Calculated Metrics |
+| [06](Case06_WhatsApp_User_Engagement.md) | WhatsApp User Engagement | 3 | Medium | String Matching, Window Functions, Aggregations |
 
 ## 🗂️ Repository Structure
 
@@ -22,6 +23,7 @@ sql-interview-practice/
 ├── Case03_Amazon_Prime_Engagement.md
 ├── Case04_Netflix_Mobile_Experience.md
 ├── Case05_Walmart_Vision_Center.md
+├── Case06_WhatsApp_User_Engagement.md
 └── ... (more cases)
 ```
 
@@ -31,16 +33,17 @@ Each case file contains:
 - **Business Context**: Real-world scenario
 - **Database Schema**: Tables and columns
 - **Questions**: Problem statements with expected outputs
-- **Solutions**: Multiple approaches with your original solution + alternatives
+- **Solutions**: Your original solution + 1 alternative approach
 - **Key Insights**: Performance notes and best practices
 
 ## 🎯 SQL Concepts Covered
 
-- **Window Functions**: ROW_NUMBER, RANK, DENSE_RANK, SUM OVER, cumulative calculations
+- **Window Functions**: ROW_NUMBER, RANK, DENSE_RANK, SUM OVER, AVG OVER, cumulative calculations
 - **CTEs**: Common Table Expressions for complex queries
 - **Date/Time Operations**: DATE_TRUNC, EXTRACT, BETWEEN, date ranges, timestamp handling
 - **Aggregations**: SUM, COUNT, AVG, MAX, GROUP BY
 - **Statistical Functions**: PERCENTILE_CONT, PERCENTILE_DISC, median, percentiles
+- **String Operations**: LIKE, ILIKE, LOWER, pattern matching
 - **JOINs**: INNER, LEFT, CROSS joins
 - **Conditional Logic**: CASE statements, bucketing, IN clause
 - **Ranking & Top-N**: Multiple ranking strategies with tie-breaking
@@ -55,6 +58,7 @@ Each case file contains:
 - [x] Case 03: Amazon Prime Member Engagement (Medium)
 - [x] Case 04: Netflix Mobile Experience (Hard)
 - [x] Case 05: Walmart Vision Center Eyewear (Hard)
+- [x] Case 06: WhatsApp User Engagement (Medium)
 - [ ] More cases coming soon...
 
 ## 🔧 Database
@@ -64,4 +68,4 @@ Each case file contains:
 
 ---
 
-**Note**: Each case includes both the original solution and optimized alternatives with detailed explanations.
+**Note**: Each case includes both the original solution and an alternative approach with detailed explanations.
