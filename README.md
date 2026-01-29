@@ -13,6 +13,7 @@ A collection of SQL problems and solutions from [InterviewMaster.ai](https://www
 | [05](Case05_Walmart_Vision_Center.md) | Walmart Vision Center Eyewear | 3 | Hard | DENSE_RANK, ROW_NUMBER, Multi-Column Ranking, Calculated Metrics |
 | [06](Case06_WhatsApp_User_Engagement.md) | WhatsApp User Engagement | 3 | Medium | String Matching, Window Functions, Aggregations |
 | [07](Case07_Google_Ads_Performance.md) | Google Ads Performance | 3 | Hard | Rolling Windows, ROWS BETWEEN, ROI Calculations, Comparative Analysis |
+| [08](Case08_Airbnb_Bookings.md) | Airbnb Booking Behaviors | 3 | Hard | Rolling Completion Rates, LAG Function, Pivoting, Multi-Dimensional Analysis |
 
 ## 🗂️ Repository Structure
 
@@ -26,6 +27,7 @@ sql-interview-practice/
 ├── Case05_Walmart_Vision_Center.md
 ├── Case06_WhatsApp_User_Engagement.md
 ├── Case07_Google_Ads_Performance.md
+├── Case08_Airbnb_Bookings.md
 └── ... (more cases)
 ```
 
@@ -40,7 +42,7 @@ Each case file contains:
 
 ## 🎯 SQL Concepts Covered
 
-- **Window Functions**: ROW_NUMBER, RANK, DENSE_RANK, SUM OVER, AVG OVER, cumulative calculations, rolling windows
+- **Window Functions**: ROW_NUMBER, RANK, DENSE_RANK, SUM OVER, AVG OVER, LAG, cumulative calculations, rolling windows
 - **Frame Clauses**: ROWS BETWEEN, RANGE BETWEEN for sliding windows
 - **CTEs**: Common Table Expressions for complex queries
 - **Date/Time Operations**: DATE_TRUNC, EXTRACT, BETWEEN, date ranges, timestamp handling
@@ -49,8 +51,10 @@ Each case file contains:
 - **String Operations**: LIKE, ILIKE, LOWER, pattern matching
 - **JOINs**: INNER, LEFT, CROSS joins
 - **Conditional Logic**: CASE statements, bucketing, IN clause, comparative analysis
+- **Pivoting**: MAX/CASE pattern for transforming rows to columns
+- **Time Series**: LAG/LEAD for day-over-day analysis
 - **Ranking & Top-N**: Multiple ranking strategies with tie-breaking
-- **Calculated Metrics**: Derived columns, performance scores, ROI calculations
+- **Calculated Metrics**: Derived columns, performance scores, ROI calculations, completion rates
 - **Advanced PostgreSQL**: DISTINCT ON, generate_series, LIMIT
 - **Data Safety**: NULLIF for division, COALESCE for NULL handling
 
@@ -63,6 +67,7 @@ Each case file contains:
 - [x] Case 05: Walmart Vision Center Eyewear (Hard)
 - [x] Case 06: WhatsApp User Engagement (Medium)
 - [x] Case 07: Google Ads Performance (Hard)
+- [x] Case 08: Airbnb Booking Behaviors (Hard)
 - [ ] More cases coming soon...
 
 ## 🔧 Database
