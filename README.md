@@ -12,6 +12,7 @@ A collection of SQL problems and solutions from [InterviewMaster.ai](https://www
 | [04](Case04_Netflix_Mobile_Experience.md) | Netflix Mobile Experience | 3 | Hard | Percentiles, Window Functions, Timestamp Operations, Device Filtering |
 | [05](Case05_Walmart_Vision_Center.md) | Walmart Vision Center Eyewear | 3 | Hard | DENSE_RANK, ROW_NUMBER, Multi-Column Ranking, Calculated Metrics |
 | [06](Case06_WhatsApp_User_Engagement.md) | WhatsApp User Engagement | 3 | Medium | String Matching, Window Functions, Aggregations |
+| [07](Case07_Google_Ads_Performance.md) | Google Ads Performance | 3 | Hard | Rolling Windows, ROWS BETWEEN, ROI Calculations, Comparative Analysis |
 
 ## 🗂️ Repository Structure
 
@@ -24,6 +25,7 @@ sql-interview-practice/
 ├── Case04_Netflix_Mobile_Experience.md
 ├── Case05_Walmart_Vision_Center.md
 ├── Case06_WhatsApp_User_Engagement.md
+├── Case07_Google_Ads_Performance.md
 └── ... (more cases)
 ```
 
@@ -38,16 +40,17 @@ Each case file contains:
 
 ## 🎯 SQL Concepts Covered
 
-- **Window Functions**: ROW_NUMBER, RANK, DENSE_RANK, SUM OVER, AVG OVER, cumulative calculations
+- **Window Functions**: ROW_NUMBER, RANK, DENSE_RANK, SUM OVER, AVG OVER, cumulative calculations, rolling windows
+- **Frame Clauses**: ROWS BETWEEN, RANGE BETWEEN for sliding windows
 - **CTEs**: Common Table Expressions for complex queries
 - **Date/Time Operations**: DATE_TRUNC, EXTRACT, BETWEEN, date ranges, timestamp handling
 - **Aggregations**: SUM, COUNT, AVG, MAX, GROUP BY
 - **Statistical Functions**: PERCENTILE_CONT, PERCENTILE_DISC, median, percentiles
 - **String Operations**: LIKE, ILIKE, LOWER, pattern matching
 - **JOINs**: INNER, LEFT, CROSS joins
-- **Conditional Logic**: CASE statements, bucketing, IN clause
+- **Conditional Logic**: CASE statements, bucketing, IN clause, comparative analysis
 - **Ranking & Top-N**: Multiple ranking strategies with tie-breaking
-- **Calculated Metrics**: Derived columns, performance scores
+- **Calculated Metrics**: Derived columns, performance scores, ROI calculations
 - **Advanced PostgreSQL**: DISTINCT ON, generate_series, LIMIT
 - **Data Safety**: NULLIF for division, COALESCE for NULL handling
 
@@ -59,6 +62,7 @@ Each case file contains:
 - [x] Case 04: Netflix Mobile Experience (Hard)
 - [x] Case 05: Walmart Vision Center Eyewear (Hard)
 - [x] Case 06: WhatsApp User Engagement (Medium)
+- [x] Case 07: Google Ads Performance (Hard)
 - [ ] More cases coming soon...
 
 ## 🔧 Database
