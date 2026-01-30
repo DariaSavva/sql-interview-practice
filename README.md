@@ -15,6 +15,7 @@ A collection of SQL problems and solutions from [InterviewMaster.ai](https://www
 | [07](Case07_Google_Ads_Performance.md) | Google Ads Performance | 3 | Hard | Rolling Windows, ROWS BETWEEN, ROI Calculations, Comparative Analysis |
 | [08](Case08_Airbnb_Bookings.md) | Airbnb Booking Behaviors | 3 | Hard | Rolling Completion Rates, LAG Function, Pivoting, Multi-Dimensional Analysis |
 | [09](Case09_PayPal_Disputes.md) | PayPal Refund Disputes | 3 | Medium | NTILE, Pattern Matching, Top-N Analysis, Quartile Segmentation |
+| [10](Case10_Apple_Philanthropy.md) | Apple Philanthropic Initiatives | 3 | Medium | Window Functions, JOINs, MIN/MAX Aggregations, Multi-Dimensional Grouping |
 
 ## 🗂️ Repository Structure
 
@@ -30,6 +31,7 @@ sql-interview-practice/
 ├── Case07_Google_Ads_Performance.md
 ├── Case08_Airbnb_Bookings.md
 ├── Case09_PayPal_Disputes.md
+├── Case10_Apple_Philanthropy.md
 └── ... (more cases)
 ```
 
@@ -44,11 +46,11 @@ Each case file contains:
 
 ## 🎯 SQL Concepts Covered
 
-- **Window Functions**: ROW_NUMBER, RANK, DENSE_RANK, SUM OVER, AVG OVER, LAG, NTILE, cumulative calculations, rolling windows
+- **Window Functions**: ROW_NUMBER, RANK, DENSE_RANK, SUM OVER, AVG OVER, LAG, NTILE, MIN OVER, MAX OVER, cumulative calculations, rolling windows
 - **Frame Clauses**: ROWS BETWEEN, RANGE BETWEEN for sliding windows
 - **CTEs**: Common Table Expressions for complex queries
 - **Date/Time Operations**: DATE_TRUNC, EXTRACT, BETWEEN, date ranges, timestamp handling
-- **Aggregations**: SUM, COUNT, AVG, MAX, GROUP BY
+- **Aggregations**: SUM, COUNT, AVG, MAX, MIN, GROUP BY, multi-dimensional grouping
 - **Statistical Functions**: PERCENTILE_CONT, PERCENTILE_DISC, NTILE, median, percentiles, quartiles
 - **String Operations**: LIKE, ILIKE, LOWER, pattern matching, prefix matching
 - **JOINs**: INNER, LEFT, CROSS joins
@@ -71,6 +73,7 @@ Each case file contains:
 - [x] Case 07: Google Ads Performance (Hard)
 - [x] Case 08: Airbnb Booking Behaviors (Hard)
 - [x] Case 09: PayPal Refund Disputes (Medium)
+- [x] Case 10: Apple Philanthropic Initiatives (Medium)
 - [ ] More cases coming soon...
 
 ## 🔧 Database
