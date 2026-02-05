@@ -17,6 +17,7 @@ A collection of SQL problems and solutions from InterviewMaster.ai practice sess
 | [09](Case09_PayPal_Disputes.md) | PayPal Refund Disputes | 3 | Medium | NTILE, Pattern Matching, Top-N Analysis, Quartile Segmentation |
 | [10](Case10_Apple_Philanthropy.md) | Apple Philanthropic Initiatives | 3 | Medium | Window Functions, JOINs, MIN/MAX Aggregations, Multi-Dimensional Grouping |
 | [11](Case11_Stripe_Capital.md) | Stripe Capital Lending | 3 | Hard | LAG-based Growth Calculations, Month-over-Month Analysis, Complex Pivoting, RANK |
+| [12](Case12_Rides_Performance.md) | Uber/Lyft Rides Performance | 3 | Hard | Timestamp Calculations, LEAD Function, EXTRACT EPOCH, Idle Time Analysis |
 
 ## Repository Structure
 
@@ -33,7 +34,8 @@ sql-interview-practice/
 ├── Case08_Airbnb_Bookings.md
 ├── Case09_PayPal_Disputes.md
 ├── Case10_Apple_Philanthropy.md
-└── Case11_Stripe_Capital.md
+├── Case11_Stripe_Capital.md
+└── Case12_Rides_Performance.md
 ```
 
 ## How to Use
@@ -51,6 +53,7 @@ Each case file contains:
 - Aggregations: SUM, COUNT, AVG, MAX, MIN, GROUP BY
 - JOINs: INNER, LEFT, CROSS
 - Date Operations: DATE_TRUNC, EXTRACT, BETWEEN
+- Timestamp Calculations: EXTRACT EPOCH, timestamp differences
 - Statistical Functions: PERCENTILE_CONT, PERCENTILE_DISC
 - String Operations: LIKE, ILIKE, LOWER
 - Pivoting and conditional aggregation
@@ -58,8 +61,8 @@ Each case file contains:
 
 ## Progress
 
-Total: 33 SQL interview questions
-Difficulty: 6 Hard, 5 Medium
+Total: 36 SQL interview questions
+Difficulty: 7 Hard, 5 Medium
 
 ## Database
 
