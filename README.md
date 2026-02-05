@@ -1,8 +1,8 @@
 # SQL Interview Practice
 
-A collection of SQL problems and solutions from [InterviewMaster.ai](https://www.interviewmaster.ai/) practice sessions.
+A collection of SQL problems and solutions from InterviewMaster.ai practice sessions.
 
-## 📋 Problem Cases
+## Problem Cases
 
 | Case | Topic | Questions | Difficulty | Key Concepts |
 |------|-------|-----------|------------|--------------|
@@ -16,8 +16,9 @@ A collection of SQL problems and solutions from [InterviewMaster.ai](https://www
 | [08](Case08_Airbnb_Bookings.md) | Airbnb Booking Behaviors | 3 | Hard | Rolling Completion Rates, LAG Function, Pivoting, Multi-Dimensional Analysis |
 | [09](Case09_PayPal_Disputes.md) | PayPal Refund Disputes | 3 | Medium | NTILE, Pattern Matching, Top-N Analysis, Quartile Segmentation |
 | [10](Case10_Apple_Philanthropy.md) | Apple Philanthropic Initiatives | 3 | Medium | Window Functions, JOINs, MIN/MAX Aggregations, Multi-Dimensional Grouping |
+| [11](Case11_Stripe_Capital.md) | Stripe Capital Lending | 3 | Hard | LAG-based Growth Calculations, Month-over-Month Analysis, Complex Pivoting, RANK |
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 sql-interview-practice/
@@ -32,55 +33,35 @@ sql-interview-practice/
 ├── Case08_Airbnb_Bookings.md
 ├── Case09_PayPal_Disputes.md
 ├── Case10_Apple_Philanthropy.md
-└── ... (more cases)
+└── Case11_Stripe_Capital.md
 ```
 
-## 💡 How to Use
+## How to Use
 
 Each case file contains:
-- **Business Context**: Real-world scenario
-- **Database Schema**: Tables and columns
-- **Questions**: Problem statements with expected outputs
-- **Solutions**: Your original solution + 1 alternative approach
-- **Key Insights**: Performance notes and best practices
+- Business Context
+- Database Schema
+- Questions with problem statements
+- SQL Solutions
 
-## 🎯 SQL Concepts Covered
+## SQL Concepts Covered
 
-- **Window Functions**: ROW_NUMBER, RANK, DENSE_RANK, SUM OVER, AVG OVER, LAG, NTILE, MIN OVER, MAX OVER, cumulative calculations, rolling windows
-- **Frame Clauses**: ROWS BETWEEN, RANGE BETWEEN for sliding windows
-- **CTEs**: Common Table Expressions for complex queries
-- **Date/Time Operations**: DATE_TRUNC, EXTRACT, BETWEEN, date ranges, timestamp handling
-- **Aggregations**: SUM, COUNT, AVG, MAX, MIN, GROUP BY, multi-dimensional grouping
-- **Statistical Functions**: PERCENTILE_CONT, PERCENTILE_DISC, NTILE, median, percentiles, quartiles
-- **String Operations**: LIKE, ILIKE, LOWER, pattern matching, prefix matching
-- **JOINs**: INNER, LEFT, CROSS joins
-- **Conditional Logic**: CASE statements, bucketing, IN clause, comparative analysis
-- **Pivoting**: MAX/CASE pattern for transforming rows to columns
-- **Time Series**: LAG/LEAD for day-over-day analysis
-- **Ranking & Top-N**: Multiple ranking strategies with tie-breaking, LIMIT
-- **Calculated Metrics**: Derived columns, performance scores, ROI calculations, completion rates
-- **Advanced PostgreSQL**: DISTINCT ON, generate_series, LIMIT
-- **Data Safety**: NULLIF for division, COALESCE for NULL handling
+- Window Functions: ROW_NUMBER, RANK, DENSE_RANK, SUM OVER, AVG OVER, LAG, LEAD, NTILE
+- CTEs: Common Table Expressions
+- Aggregations: SUM, COUNT, AVG, MAX, MIN, GROUP BY
+- JOINs: INNER, LEFT, CROSS
+- Date Operations: DATE_TRUNC, EXTRACT, BETWEEN
+- Statistical Functions: PERCENTILE_CONT, PERCENTILE_DISC
+- String Operations: LIKE, ILIKE, LOWER
+- Pivoting and conditional aggregation
+- Rolling windows and time series analysis
 
-## 📊 Progress
+## Progress
 
-- [x] Case 01: Amazon Seller Sales Analysis (Hard)
-- [x] Case 02: Netflix Marketing Efficiency (Medium)
-- [x] Case 03: Amazon Prime Member Engagement (Medium)
-- [x] Case 04: Netflix Mobile Experience (Hard)
-- [x] Case 05: Walmart Vision Center Eyewear (Hard)
-- [x] Case 06: WhatsApp User Engagement (Medium)
-- [x] Case 07: Google Ads Performance (Hard)
-- [x] Case 08: Airbnb Booking Behaviors (Hard)
-- [x] Case 09: PayPal Refund Disputes (Medium)
-- [x] Case 10: Apple Philanthropic Initiatives (Medium)
-- [ ] More cases coming soon...
+Total: 33 SQL interview questions
+Difficulty: 6 Hard, 5 Medium
 
-## 🔧 Database
+## Database
 
-- **DBMS**: PostgreSQL
-- **Platform**: [InterviewMaster.ai](https://www.interviewmaster.ai/)
-
----
-
-**Note**: Each case includes both the original solution and an alternative approach with detailed explanations.
+- DBMS: PostgreSQL
+- Platform: InterviewMaster.ai
