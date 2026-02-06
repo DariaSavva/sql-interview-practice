@@ -21,6 +21,7 @@ A collection of SQL problems and solutions from InterviewMaster.ai practice sess
 | [13](Case13_ChatGPT_Performance.md) | ChatGPT Query Performance | 3 | Medium | Multi-Criteria Ranking, JOINs, Aggregations |
 | [14](Case14_X_Advertising.md) | X (Twitter) Advertising Campaigns | 3 | Hard | Data Cleaning, Growth Rate Calculations, Pivoting, Multiple ROW_NUMBER |
 | [15](Case15_Game_Balance.md) | Game Balance Analysis | 3 | Hard | Multi-Dimensional JOINs, Weekly Aggregations, Dual ROW_NUMBER for Extremes |
+| [16](Case16_Amazon_Devices.md) | Amazon Devices Usage Patterns | 3 | Medium | SPLIT_PART, CASE Statements, Percentage Calculations, CROSS JOIN |
 
 ## Repository Structure
 
@@ -41,7 +42,8 @@ sql-interview-practice/
 ├── Case12_Rides_Performance.md
 ├── Case13_ChatGPT_Performance.md
 ├── Case14_X_Advertising.md
-└── Case15_Game_Balance.md
+├── Case15_Game_Balance.md
+└── Case16_Amazon_Devices.md
 ```
 
 ## How to Use
@@ -61,18 +63,19 @@ Each case file contains:
 - Date Operations: DATE_TRUNC, EXTRACT, BETWEEN
 - Timestamp Calculations: EXTRACT EPOCH, timestamp differences
 - Statistical Functions: PERCENTILE_CONT, PERCENTILE_DISC
-- String Operations: LIKE, ILIKE, LOWER, UPPER
+- String Operations: LIKE, ILIKE, LOWER, UPPER, SPLIT_PART
 - Data Cleaning: UPPER, LOWER, TRIM
 - Pivoting and conditional aggregation
 - Rolling windows and time series analysis
 - Multi-criteria ranking
 - Growth rate calculations
 - Finding extremes with dual ROW_NUMBER
+- Percentage calculations
 
 ## Progress
 
-Total: 45 SQL interview questions
-Difficulty: 9 Hard, 6 Medium
+Total: 48 SQL interview questions
+Difficulty: 9 Hard, 7 Medium
 
 ## Database
 
