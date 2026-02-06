@@ -22,6 +22,7 @@ A collection of SQL problems and solutions from InterviewMaster.ai practice sess
 | [14](Case14_X_Advertising.md) | X (Twitter) Advertising Campaigns | 3 | Hard | Data Cleaning, Growth Rate Calculations, Pivoting, Multiple ROW_NUMBER |
 | [15](Case15_Game_Balance.md) | Game Balance Analysis | 3 | Hard | Multi-Dimensional JOINs, Weekly Aggregations, Dual ROW_NUMBER for Extremes |
 | [16](Case16_Amazon_Devices.md) | Amazon Devices Usage Patterns | 3 | Medium | SPLIT_PART, CASE Statements, Percentage Calculations, CROSS JOIN |
+| [17](Case17_LinkedIn_Feed.md) | LinkedIn Feed Engagement | 3 | Hard | HAVING Clause, RANK with Multi-Criteria, Weekly MAX Aggregations |
 
 ## Repository Structure
 
@@ -43,7 +44,8 @@ sql-interview-practice/
 ├── Case13_ChatGPT_Performance.md
 ├── Case14_X_Advertising.md
 ├── Case15_Game_Balance.md
-└── Case16_Amazon_Devices.md
+├── Case16_Amazon_Devices.md
+└── Case17_LinkedIn_Feed.md
 ```
 
 ## How to Use
@@ -59,6 +61,7 @@ Each case file contains:
 - Window Functions: ROW_NUMBER, RANK, DENSE_RANK, SUM OVER, AVG OVER, LAG, LEAD, NTILE
 - CTEs: Common Table Expressions
 - Aggregations: SUM, COUNT, AVG, MAX, MIN, GROUP BY
+- HAVING clause for filtering aggregated results
 - JOINs: INNER, LEFT, CROSS
 - Date Operations: DATE_TRUNC, EXTRACT, BETWEEN
 - Timestamp Calculations: EXTRACT EPOCH, timestamp differences
@@ -71,11 +74,12 @@ Each case file contains:
 - Growth rate calculations
 - Finding extremes with dual ROW_NUMBER
 - Percentage calculations
+- Weekly aggregations with MAX
 
 ## Progress
 
-Total: 48 SQL interview questions
-Difficulty: 9 Hard, 7 Medium
+Total: 51 SQL interview questions
+Difficulty: 10 Hard, 7 Medium
 
 ## Database
 
