@@ -20,6 +20,7 @@ A collection of SQL problems and solutions from InterviewMaster.ai practice sess
 | [12](Case12_Rides_Performance.md) | Uber/Lyft Rides Performance | 3 | Hard | Timestamp Calculations, LEAD Function, EXTRACT EPOCH, Idle Time Analysis |
 | [13](Case13_ChatGPT_Performance.md) | ChatGPT Query Performance | 3 | Medium | Multi-Criteria Ranking, JOINs, Aggregations |
 | [14](Case14_X_Advertising.md) | X (Twitter) Advertising Campaigns | 3 | Hard | Data Cleaning, Growth Rate Calculations, Pivoting, Multiple ROW_NUMBER |
+| [15](Case15_Game_Balance.md) | Game Balance Analysis | 3 | Hard | Multi-Dimensional JOINs, Weekly Aggregations, Dual ROW_NUMBER for Extremes |
 
 ## Repository Structure
 
@@ -39,7 +40,8 @@ sql-interview-practice/
 ├── Case11_Stripe_Capital.md
 ├── Case12_Rides_Performance.md
 ├── Case13_ChatGPT_Performance.md
-└── Case14_X_Advertising.md
+├── Case14_X_Advertising.md
+└── Case15_Game_Balance.md
 ```
 
 ## How to Use
@@ -65,11 +67,12 @@ Each case file contains:
 - Rolling windows and time series analysis
 - Multi-criteria ranking
 - Growth rate calculations
+- Finding extremes with dual ROW_NUMBER
 
 ## Progress
 
-Total: 42 SQL interview questions
-Difficulty: 8 Hard, 6 Medium
+Total: 45 SQL interview questions
+Difficulty: 9 Hard, 6 Medium
 
 ## Database
 
