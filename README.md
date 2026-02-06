@@ -19,6 +19,7 @@ A collection of SQL problems and solutions from InterviewMaster.ai practice sess
 | [11](Case11_Stripe_Capital.md) | Stripe Capital Lending | 3 | Hard | LAG-based Growth Calculations, Month-over-Month Analysis, Complex Pivoting, RANK |
 | [12](Case12_Rides_Performance.md) | Uber/Lyft Rides Performance | 3 | Hard | Timestamp Calculations, LEAD Function, EXTRACT EPOCH, Idle Time Analysis |
 | [13](Case13_ChatGPT_Performance.md) | ChatGPT Query Performance | 3 | Medium | Multi-Criteria Ranking, JOINs, Aggregations |
+| [14](Case14_X_Advertising.md) | X (Twitter) Advertising Campaigns | 3 | Hard | Data Cleaning, Growth Rate Calculations, Pivoting, Multiple ROW_NUMBER |
 
 ## Repository Structure
 
@@ -37,7 +38,8 @@ sql-interview-practice/
 ├── Case10_Apple_Philanthropy.md
 ├── Case11_Stripe_Capital.md
 ├── Case12_Rides_Performance.md
-└── Case13_ChatGPT_Performance.md
+├── Case13_ChatGPT_Performance.md
+└── Case14_X_Advertising.md
 ```
 
 ## How to Use
@@ -57,15 +59,17 @@ Each case file contains:
 - Date Operations: DATE_TRUNC, EXTRACT, BETWEEN
 - Timestamp Calculations: EXTRACT EPOCH, timestamp differences
 - Statistical Functions: PERCENTILE_CONT, PERCENTILE_DISC
-- String Operations: LIKE, ILIKE, LOWER
+- String Operations: LIKE, ILIKE, LOWER, UPPER
+- Data Cleaning: UPPER, LOWER, TRIM
 - Pivoting and conditional aggregation
 - Rolling windows and time series analysis
 - Multi-criteria ranking
+- Growth rate calculations
 
 ## Progress
 
-Total: 39 SQL interview questions
-Difficulty: 7 Hard, 6 Medium
+Total: 42 SQL interview questions
+Difficulty: 8 Hard, 6 Medium
 
 ## Database
 
