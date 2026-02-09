@@ -24,6 +24,8 @@ A collection of SQL problems and solutions from InterviewMaster.ai practice sess
 | [16](Case16_Amazon_Devices.md) | Amazon Devices Usage Patterns | 3 | Medium | SPLIT_PART, CASE Statements, Percentage Calculations, CROSS JOIN |
 | [17](Case17_LinkedIn_Feed.md) | LinkedIn Feed Engagement | 3 | Hard | HAVING Clause, RANK with Multi-Criteria, Weekly MAX Aggregations |
 | [18](Case18_Apple_Supply_Chain.md) | Apple Supply Chain Procurement | 3 | Medium | Top-N with LIMIT, ROW_NUMBER per Partition, Anti-Joins (3 methods) |
+| [19](Case19_Stripe_Connect.md) | Stripe Connect Payment Performance | 3 | Medium | Aggregations, Multi-Criteria Ranking, CTEs |
+| [20](Case20_Microsoft_Teams.md) | Microsoft Teams Collaboration | 3 | Medium | COUNT DISTINCT, Percentage Calculations, LEFT JOIN for Coverage Analysis |
 
 ## Repository Structure
 
@@ -47,7 +49,9 @@ sql-interview-practice/
 ├── Case15_Game_Balance.md
 ├── Case16_Amazon_Devices.md
 ├── Case17_LinkedIn_Feed.md
-└── Case18_Apple_Supply_Chain.md
+├── Case18_Apple_Supply_Chain.md
+├── Case19_Stripe_Connect.md
+└── Case20_Microsoft_Teams.md
 ```
 
 ## How to Use
@@ -62,7 +66,7 @@ Each case file contains:
 
 - Window Functions: ROW_NUMBER, RANK, DENSE_RANK, SUM OVER, AVG OVER, LAG, LEAD, NTILE
 - CTEs: Common Table Expressions
-- Aggregations: SUM, COUNT, AVG, MAX, MIN, GROUP BY
+- Aggregations: SUM, COUNT, AVG, MAX, MIN, GROUP BY, COUNT DISTINCT
 - HAVING clause for filtering aggregated results
 - JOINs: INNER, LEFT, CROSS
 - Anti-Joins: NOT IN, LEFT JOIN with NULL, NOT EXISTS
@@ -82,8 +86,8 @@ Each case file contains:
 
 ## Progress
 
-Total: 54 SQL interview questions
-Difficulty: 10 Hard, 8 Medium
+Total: 60 SQL interview questions
+Difficulty: 10 Hard, 10 Medium
 
 ## Database
 
