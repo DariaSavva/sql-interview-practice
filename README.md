@@ -23,6 +23,7 @@ A collection of SQL problems and solutions from InterviewMaster.ai practice sess
 | [15](Case15_Game_Balance.md) | Game Balance Analysis | 3 | Hard | Multi-Dimensional JOINs, Weekly Aggregations, Dual ROW_NUMBER for Extremes |
 | [16](Case16_Amazon_Devices.md) | Amazon Devices Usage Patterns | 3 | Medium | SPLIT_PART, CASE Statements, Percentage Calculations, CROSS JOIN |
 | [17](Case17_LinkedIn_Feed.md) | LinkedIn Feed Engagement | 3 | Hard | HAVING Clause, RANK with Multi-Criteria, Weekly MAX Aggregations |
+| [18](Case18_Apple_Supply_Chain.md) | Apple Supply Chain Procurement | 3 | Medium | Top-N with LIMIT, ROW_NUMBER per Partition, Anti-Joins (3 methods) |
 
 ## Repository Structure
 
@@ -45,7 +46,8 @@ sql-interview-practice/
 ├── Case14_X_Advertising.md
 ├── Case15_Game_Balance.md
 ├── Case16_Amazon_Devices.md
-└── Case17_LinkedIn_Feed.md
+├── Case17_LinkedIn_Feed.md
+└── Case18_Apple_Supply_Chain.md
 ```
 
 ## How to Use
@@ -63,6 +65,7 @@ Each case file contains:
 - Aggregations: SUM, COUNT, AVG, MAX, MIN, GROUP BY
 - HAVING clause for filtering aggregated results
 - JOINs: INNER, LEFT, CROSS
+- Anti-Joins: NOT IN, LEFT JOIN with NULL, NOT EXISTS
 - Date Operations: DATE_TRUNC, EXTRACT, BETWEEN
 - Timestamp Calculations: EXTRACT EPOCH, timestamp differences
 - Statistical Functions: PERCENTILE_CONT, PERCENTILE_DISC
@@ -75,11 +78,12 @@ Each case file contains:
 - Finding extremes with dual ROW_NUMBER
 - Percentage calculations
 - Weekly aggregations with MAX
+- Top-N queries with LIMIT
 
 ## Progress
 
-Total: 51 SQL interview questions
-Difficulty: 10 Hard, 7 Medium
+Total: 54 SQL interview questions
+Difficulty: 10 Hard, 8 Medium
 
 ## Database
 
