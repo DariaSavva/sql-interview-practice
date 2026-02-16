@@ -26,6 +26,7 @@ A collection of SQL problems and solutions from InterviewMaster.ai practice sess
 | [18](Case18_Apple_Supply_Chain.md) | Apple Supply Chain Procurement | 3 | Medium | Top-N with LIMIT, ROW_NUMBER per Partition, Anti-Joins (3 methods) |
 | [19](Case19_Stripe_Connect.md) | Stripe Connect Payment Performance | 3 | Medium | Aggregations, Multi-Criteria Ranking, CTEs |
 | [20](Case20_Microsoft_Teams.md) | Microsoft Teams Collaboration | 3 | Medium | COUNT DISTINCT, Percentage Calculations, LEFT JOIN for Coverage Analysis |
+| [21](Case21_Meta_Creator_Growth.md) | Meta Creator Growth | 3 | Hard | RANK per Partition, CROSS JOIN LATERAL for Unpivoting, Multi-Level CTEs |
 
 ## Repository Structure
 
@@ -51,7 +52,8 @@ sql-interview-practice/
 ├── Case17_LinkedIn_Feed.md
 ├── Case18_Apple_Supply_Chain.md
 ├── Case19_Stripe_Connect.md
-└── Case20_Microsoft_Teams.md
+├── Case20_Microsoft_Teams.md
+└── Case21_Meta_Creator_Growth.md
 ```
 
 ## How to Use
@@ -68,14 +70,14 @@ Each case file contains:
 - CTEs: Common Table Expressions
 - Aggregations: SUM, COUNT, AVG, MAX, MIN, GROUP BY, COUNT DISTINCT
 - HAVING clause for filtering aggregated results
-- JOINs: INNER, LEFT, CROSS
+- JOINs: INNER, LEFT, CROSS, CROSS JOIN LATERAL
 - Anti-Joins: NOT IN, LEFT JOIN with NULL, NOT EXISTS
 - Date Operations: DATE_TRUNC, EXTRACT, BETWEEN
 - Timestamp Calculations: EXTRACT EPOCH, timestamp differences
 - Statistical Functions: PERCENTILE_CONT, PERCENTILE_DISC
 - String Operations: LIKE, ILIKE, LOWER, UPPER, SPLIT_PART
 - Data Cleaning: UPPER, LOWER, TRIM
-- Pivoting and conditional aggregation
+- Pivoting and unpivoting: CROSS JOIN LATERAL, VALUES clause
 - Rolling windows and time series analysis
 - Multi-criteria ranking
 - Growth rate calculations
@@ -86,8 +88,8 @@ Each case file contains:
 
 ## Progress
 
-Total: 60 SQL interview questions
-Difficulty: 10 Hard, 10 Medium
+Total: 63 SQL interview questions
+Difficulty: 11 Hard, 10 Medium
 
 ## Database
 
